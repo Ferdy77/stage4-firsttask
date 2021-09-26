@@ -1,0 +1,15 @@
+*, html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  padding-right: 2rem;
+}
+
+.title-wrapper {
+  margin-top: -80px;
+}

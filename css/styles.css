@@ -1,0 +1,22 @@
+*, html, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: black;
+  padding-right: 2rem;
+}
+
+.main-wrapper .background-image{
+  background-image: url('../images/bkg-image.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+
+.main-wrapper .title-wrapper {
+  margin-top: 60px;
+}
+
