@@ -13,10 +13,12 @@
 .main-wrapper .background-image{
   background-image: url('../images/bkg-image.jpg');
   background-size: cover;
-  height: 100vh;
+  height: auto;
 }
 
 .main-wrapper .title-wrapper {
   margin-top: 60px;
 }
-
+.main-wrapper .main-logo img {
+  height: 36px;
+}

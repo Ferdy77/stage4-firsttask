@@ -11,38 +11,50 @@
 <body>
   <section class="main-wrapper">
     <div class="background-image">
-      <div class="nav-bar container py-3">
-        <div class="container-fluid fs-6 fw-bold col col-md-12 col-lg-12">
-          <a href="index.html">Home</a>
-          <a href="about-us.html">About Us</a>
-          <a href="services.html">Services</a>
-          <a href="contact-us.html">Contact Us</a>
-        </div>
+      <div class="fs-6 fw-bold col col-md-12 col-lg-12">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+            <a class="navbar-brand" href="/"> <h1 class="text-danger fw-bolder">Ferdy<span class="text-info">Joan</span></h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav  ms-auto fs-4">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact-us.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
-        <div class="title-wrapper">
-          <div class="container vh-100">
-            <div class="row">
-              <div class="col col-md-6 col-lg-6 "> 
-                <div class="right-txt-bar border rounded bg-white text-center opacity-75">
-                  <div class="container logo-area d-flex justify-content-center">
-                    <div class="logo-name">
-                      <img src="./images/chef.png" alt="" height="60px" width="60px">
-                    </div>
-                    <div class="logo-name">
-                      <h1 class="text-danger fw-bolder">Ferdy<span class="text-info">Joan</span></h1>
-                    </div>
-                  </div>
-                    <h2 class="border-bottom border-danger border-5">African Cuisine Restaurant</h2>       
-                  <div class="desc-txt px-5">
-                    <p class="py-3 text-danger fw-bold fst-italic">A moment with us is a moment well flexed!</p>
-                    <p class="fs-5">We are number one providers of African dishes in your neighbourhood within the serene ocean view scenery of Lagos Island. We don't just say we are the best, the WORLD said so! Our daily Afro Beat live band brings a different taste to our meal..</p>
-                    <p class="text-danger fw-bold fst-italic">Why not join us for that home coming aroma of freshly prepared African delicacies...</p>
-                  </div>
+      <div class="title-wrapper">
+        <div class="container vh-100 d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-6 col-lg-6 "> 
+            <div class="rounded bg-white text-center opacity-75">
+              <div class="container d-flex justify-content-center">
+                <div class="logo-name">
+                  <h1 class="text-danger fw-bolder pt-2">Ferdy<span class="text-info">Joan</span></h1>
                 </div>
+              </div>
+                <h2 class="border-bottom border-danger border-5">African Cuisine Restaurant</h2>       
+              <div class="px-5">
+                <p class="fs-5">Number one providers of African dishes within the serene ocean view scenery of Lagos Island. Our daily Afro Beat live band brings a different taste to our meal..</p>
+                <p class="text-danger fw-bold fst-italic pb-3"><a href="./services.html">Join us  for that home coming aroma of freshly prepared African delicacies...</a></p>
               </div>
             </div>
           </div>
         </div>
+      </div>
     </div>
   </section>
   <script src="./script/bootstrap.bundle.min.js"></script>
