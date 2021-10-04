@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-.nav-bar a {
-  text-decoration: none;
-  color: black;
-  padding-right: 2rem;
-}
-
 .main-wrapper .background-image{
   background-image: url('../images/bkg-image.jpg');
   background-size: cover;
@@ -19,6 +13,4 @@
 .main-wrapper .title-wrapper {
   margin-top: 60px;
 }
-.main-wrapper .main-logo img {
-  height: 36px;
-}
+
